@@ -1,0 +1,111 @@
+#scrollableContent{
+	top: 150px;
+}
+
+article {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgb(204, 204, 204);
+	padding-bottom: 20px;
+}
+article h2 {
+	display: inline-block;
+	width: 100%;
+
+	text-align: center;
+	
+	font-size: 40px;
+}
+
+section {
+	width: 95%;
+	padding: 20px;
+	
+	margin: 0 auto;
+	margin-bottom: 40px;
+	
+	background-color: rgb(0, 103, 179);
+}
+
+.gameLinks img {
+	width: 150px;
+	height: 150px;
+
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	margin-top: 5px;
+  
+   background-color: red;
+}
+
+/*Image Animation. Image is supposed to increase in size while not affecting the surrounding elements*/
+.gameLinks img:hover {
+	animation-name: grow;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes grow{
+  from   {
+  	left:0px;
+    top:0px;
+  }
+  to  {
+  	width: 170px;
+    height: 170px;
+  	left:-10px;
+    top:-10px;
+	margin-right: 0px;
+  }
+}
+
+.gameTitle {
+	display: inline;
+
+	float: left;
+	
+	color: white;
+	font-size: 30px;
+}
+.gameTitle:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+section table {
+	width: 80%;
+	
+	float: left;
+	margin: 15px 0px;
+	
+	color: white;
+	font-size: 20px;
+}
+section td {
+	width: 20%;
+	
+	padding: 5px;
+	
+	font-size: 15px;
+	border: 1px solid white;
+}
+section tr:nth-child(1) td:nth-child(3) {
+	width: 2%;
+	
+	border: none;
+}
+/*Tables are split by a cell extended 3 rows downwards. In order to get the proper cell, multiple declaarations need to be made*/
+/*	First column cells	/4th cell of 1st row because of hidden td /				3rd cell of 1st row because of no hidden td						*/
+section td:nth-child(1), section tr:nth-child(1) td:nth-child(4), section tr:nth-child(2) td:nth-child(3), section tr:nth-child(3) td:nth-child(3) {
+	width: 5%;
+}
+section p {
+	width: 90%;
+	
+	clear: both;
+	margin: 0 auto;
+	padding: 20px 0px;
+	
+	color: white;
+	font-size: 20px;
+}

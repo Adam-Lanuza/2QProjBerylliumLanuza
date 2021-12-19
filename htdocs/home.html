@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Gamer's Guidebook</title>
+		
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Lanuza, Adam Joshua D."/>
+		<meta name="keywords" content="HTML, CSS, JavaScript"/>
+		
+		<!--The format is dd/mm/yyyy-->
+		<meta name="date" content="14/12/2021"/>
+		<meta name="revised" content="16/12/2021"/>
+		
+		<link rel="stylesheet" type="text/css" href="..\css\mainStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="..\css\homeStyle.css">
+
+		<link rel="icon" type="image/png" href="..\images\Gamer's Guidebook Logo.png">
+	</head>
+	
+	<body>
+		<header>
+			<div id="headerAudio">
+				<audio controls autoplay>
+					<source src="..\mmfiles\REWIND.mp3" type="audio/mpeg">
+					This file isn't supported by your browser
+				</audio>
+				<span>A bit of background audio</span>
+			</div>
+			
+			<h1>The Gamer's Guidebook</h1>
+			<nav>
+				<ul> <!--anchor tags are declared before list tags so that the entire box and not just the text is a link-->
+					<a href="home.html"><li>Home Page</li></a>
+					<a href="allGames.html"><li>All Games</li></a>
+					<a href="companies.html"><li>Game Companies</li></a>
+					<a href="genres.html"><li>Genres</li></a>
+					<a href="history.html"><li>History of Video Games</li></a>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="scrollableContent">		<!--Container that allows both footer and content to be moved downwards-->
+			<section id="banner">
+				<a href="https://www.playstation.com/en-ph/games/ghost-of-tsushima/"><img src="..\images\Home Page Collage\Ghost_Of_Tsushima.jpg" class="topTrianlge"/></a>
+				<a href="https://www.minecraft.net/en-us"><img src="..\images\Home Page Collage\Minecraft_cover.png" class="bottomTrianlge"/></a>
+				<a href="https://www.innersloth.com/games/among-us/"><img src="..\images\Home Page Collage\among us.jpg" class="topTrianlge"/></a>
+				<a href="https://www.subnautica.com/"><img src="..\images\Home Page Collage\subnautica.jpg" class="bottomTrianlge"/></a>
+				<a href="https://genshin.mihoyo.com/en/"><img src="..\images\Home Page Collage\Genshin Impact _Keyart.png" class="topTrianlge"/></a>
+				<a href="https://joeydrewstudios.com/batim"><img src="..\images\Home Page Collage\bendy.jpg" class="bottomTrianlge"/></a>
+				<a href="https://www.rayark.com/g/cytus2/"><img src="..\images\Home Page Collage\cytus-2-music-1.jpg" class="topTrianlge"/></a>
+				<a href="https://www.linkedin.com/company/thekla-inc"><img src="..\images\Home Page Collage\witness.jpg" class="bottomTrianlge"/></a> <!--Witness doesn't have an offial site so I just used a linkedin account-->
+			</section>
+			
+			<section id="welcomeTextContainer">
+				<h1 class="welcomeText">WELCOME TO THE GAMER'S GUIDEBOOK!</h1>
+				<p class="welcomeText">If you are bored and want to try out a new video game, then this site is perfect for you. The main goal of this site is to recommend games that you can try. It has a list of the video games and their respective information like price or platforms. It also includes gaming genres for those who want to seek out games that are like their favorites or for those who want to find out what genre is for them. There is also a compilation of the companies that make our favorite games if you ever want to try their other products. Finally, if ever you are curious about how video games started, then we also have a page dedicated to the history of video games. To find those pages, please follow the link boxes below or in the header bar.</p>
+			</section>
+			
+			<section id="redirectButtons">
+				<a href = "allGames.html" class="linkButton">
+					<span>
+						<img src="..\images\controller.png"/>
+						<h3>ALL GAMES</h3>
+					</span>
+				</a>
+				<a href = "history.html" class="linkButton">
+					<span>
+						<img src="..\images\controller.png"/>
+						<h3>HISTORY OF VIDEO GAMES</h3>
+					</span>
+				</a>
+				<a href = "companies.html" class="linkButton">
+					<span>
+						<img src="..\images\controller.png"/>
+						<h3>GAME COMPANIES</h3>
+					</span>
+				</a>
+				<a href = "genres.html" class="linkButton">
+					<span>
+						<img src="..\images\controller.png"/>
+						<h3>GENRES</h3>
+					</span>
+				</a>
+			</section>
+			
+			<footer>
+				<ul id="links" class="footerLists">
+					<li class="footerTitle" >Site Links</li>
+					<br/>
+					<li><a href="home.html" class="footerText">Home Page</a></li>
+					<li><a href="allGames.html" class="footerText">All Games</a></li>
+					<li><a href="companies.html" class="footerText">Game Companies</a></li>
+					<li><a href="genres.html" class="footerText">Genres</a></li>
+					<li><a href="history.html" class="footerText">History of Video Games</a></li>
+					<li><a href="references.html" class="footerText">References, Sources, and Credits</a></li>
+				</ul>
+				<ul id="referenceNames" class="footerLists">
+					<li class="footerTitle" >Games</li>
+					<br/>
+					<li class="footerText">Ghost of Tsushima:</li>
+					<li class="footerText">Minecraft:</li>
+					<li class="footerText">Among Us:</li>
+					<li class="footerText">Subnautica Below Zero:</li>
+					<li class="footerText">Genshin Impact:</li>
+					<li class="footerText">Bendy and the Ink Machine:</li>
+					<li class="footerText">Cytus 2:</li>
+					<li class="footerText">The Witness:</li>
+				</ul>
+				<ul id="referenceLinks" class="footerLists">
+					<li class="footerText" style="margin-top: 45px;"><a href="https://www.playstation.com/en-ph/games/ghost-of-tsushima/" class="footerText">https://www.playstation.com/en-ph/games/ghost-of-tsushima/</a></li>
+					<li class="footerText"><a href="https://www.minecraft.net/en-us"" class="footerText">https://www.minecraft.net/en-us</a></li>
+					<li class="footerText"><a href="https://www.innersloth.com/games/among-us/" class="footerText">https://www.innersloth.com/games/among-us/</a></li>
+					<li class="footerText"><a href="https://www.subnautica.com/" class="footerText">https://www.subnautica.com/</a></li>
+					<li class="footerText"><a href="https://genshin.mihoyo.com/en/" class="footerText">https://genshin.mihoyo.com/en/</a></li>
+					<li class="footerText"><a href="https://joeydrewstudios.com/batim" class="footerText">https://joeydrewstudios.com/batim</a></li>
+					<li class="footerText"><a href="https://www.rayark.com/g/cytus2/" class="footerText">https://www.rayark.com/g/cytus2/</a></li>
+					<li class="footerText"><a href="https://www.linkedin.com/company/thekla-inc" class="footerText">https://www.linkedin.com/company/thekla-inc</a></li>
+				</ul>
+
+				<hr>
+				<h3 class="copyright">The Gamer's Guidebook</h4>
+				<p class="copyright">© 2016 - 2021 The Gamer's Guidebook - All Rights Reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
