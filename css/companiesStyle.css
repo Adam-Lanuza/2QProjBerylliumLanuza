@@ -1,0 +1,71 @@
+.companyCard {
+	width: 400px;
+	height: 575px;
+	padding: 5px 20px;
+	background-color: rgb(230, 230, 230);
+	
+	float: left;
+	margin: 20px 0 0 5%;
+	
+	border: 1px solid black;
+}
+.companyCard img {
+	width: 300px;
+	height: 200px;
+	display: block;
+	
+	position: relative;
+	margin: 10px auto 0;
+	
+	border: 1px solid black;
+	background-color: white;
+}
+.companyCard img:hover {
+	animation-name: grow;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes grow{
+  from{
+  	left:0px;
+    top:0px;
+  }
+  to{
+  	width: 315px;
+	height: 210px;
+	margin-bottom: -10px;
+  }
+}
+.companyCard h3, .companyCard p{
+	text-align: center;
+}
+.companyCard h3{
+	margin-top: 20px;
+	font-size: 25px;
+	color: black;
+}	
+.companyCard h6{
+	margin: 25px 20px 5px;
+	
+	font-size: 15px;
+	line-height: 0px;
+}
+.companyCard ul{
+	list-style-type: none;
+}
+.companyCard .companyAllGames{
+	margin-top: 5px;
+	
+	text-decoration: underline;
+	font-size: 17.5px;
+}
+.companyCard .companyAllGames a {
+	color: rgb(128, 128, 128);
+	margin-left: -10px;
+}
+.companyCard a:hover {
+	font-style: italic;
+	color: rgb(128, 128, 128);
+	text-decoration: underline;
+}
+

@@ -1,0 +1,237 @@
+* {
+	box-sizing: border-box;
+	
+	font-family: Roboto, Arial, Sans-Serif
+}
+body {
+	background-color: rgb(244, 244, 244);
+}
+a {
+	text-decoration: none;
+}
+p, li{
+	font-size: 15px;
+}
+
+header {
+	width: 100%;
+	height: 125px;
+	display: inline-block;
+	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	
+	background-color: rgb(0, 103, 179);
+}
+header h1{
+	width: 100%;
+	height: 90px;
+	
+	top: 0px;
+	padding-top: 15px;
+	padding-left: 10px;
+	margin: 0;
+	float: left;
+	
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: 50px;
+	white-space: nowrap;
+}
+header nav {
+	height: 35px;
+	width: 100%;
+	
+	top: 90px;
+	padding: 0px;
+	margin: 0px;
+	z-index: 11;
+}
+header nav ul {
+	display: inline-block;
+	width: 100%;
+	
+	padding: 0px;
+	margin: 0px;
+	
+	background-color: rgb(255, 213, 61);
+	list-style-type: none;
+}
+header nav li {
+	width: 20%;
+	
+	padding: 8.25px 0px;
+	float: left;
+	
+	font-weight: bold;
+	text-align: center;
+	vertical-align: center;
+	color: black;
+}
+header li:hover {
+	background-color: rgb(221, 179, 30);
+	font-style: italic;
+}
+header #headerAudio{
+	height: 90px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+header #headerAudio span{
+	position: absolute;
+	bottom: 12.5px;
+	right: 15px;
+	
+	color: white;
+}
+
+#scrollableContent {
+	width:100%;
+	overflow: hidden;
+	
+	position: absolute;
+	z-index: 1;
+	top: 125px;
+	left: 0px;
+	float: left;
+}
+
+
+#socialMediaSideBar{
+	width: 60px;
+	height: 115px;
+	
+	position: fixed;
+	bottom: 25%;
+	right: 0;
+	z-index: 10;
+}
+#socialMediaSideBar #openedBar{
+	height: 115px;
+	width: 40px;	
+	
+	position: absolute;
+	right: 0;
+	
+	display: block;
+	display: none;
+	background-color: rgb(255, 213, 61);
+}
+#openedBar #closeButton, #closedBar #openButton {
+	height: 115px;
+	width: 20px;
+	
+	position: absolute;
+	right: 0;
+	
+	border-radius: 10px 0 0 10px;
+	background-color: rgb(0, 103, 179);
+}
+#openedBar #closeButton {
+	right: 40px;
+}
+#closeButton #closeArrow{
+	margin-top: 40px;
+	
+	background: url('../images/socMedSidbarSprites.png') no-repeat -170px -90px;
+	width: 15px;
+	height: 35px;
+}
+#openButton #openArrow{
+	margin-top: 40px;
+	
+	background: url('../images/socMedSidbarSprites.png') no-repeat -170px -20px;
+	width: 15px;
+	height: 35px;
+}
+#socialMediaSideBar #openedBar:target {
+	display: block;
+}
+
+#socialMediaSideBar #redditLink {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -14.5px -97.5px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+#socialMediaSideBar #youtubeLink {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -59.5px -97.5px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+#socialMediaSideBar #facebookLink {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -109px -97.5px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+
+#socialMediaSideBar #redditLink:hover {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -14.5px -39px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+#socialMediaSideBar #youtubeLink:hover {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -59.5px -39px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+#socialMediaSideBar #facebookLink:hover {
+	background: url('../images/socMedSidbarSprites.png') no-repeat -109px -39px;
+	width: 33px;
+	height: 33px;
+	
+	margin: 3.5px auto;
+}
+
+footer {
+	width: 100%;
+	
+	position: relative;
+	top: 15px;
+	left: 0;
+	clear: left;
+	
+	background-color: rgb(0, 0, 163);
+}
+
+footer .footerLists {
+	float: left;
+	
+	list-style-type: none;
+}
+
+.footerText {
+	color: white;
+	text-decoration: none; 
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: underline; 
+}
+
+.footerTitle {
+	color: white;
+	font-size: 25px;
+}
+
+footer hr {
+	clear: both;
+}
+
+footer .copyright {
+	text-align: center;
+	color: white;
+}

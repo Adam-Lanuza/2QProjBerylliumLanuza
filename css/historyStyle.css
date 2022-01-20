@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(191, 191, 191);
+}
+
+.timePeriodCard {
+	width: 80%;
+	padding: 10px 1%;
+
+	margin: 10px auto 90px;
+	
+	background-color: rgb(233,234,236);
+	border: 7.5px solid black;
+}
+.timePeriodCard *{
+	color: #333652;
+}
+.timePeriodCard hr{
+	
+	clear: both;
+}
+.timePeriodCard:nth-child(odd) {
+	margin-right: 5%;
+	
+	border-radius: 50px 20px 20px 50px;
+	background-color: rgb(234, 204, 98);
+}
+.timePeriodCard:nth-child(odd) .periodTitle{
+	float: right;
+	clear: right;
+}
+.timePeriodCard:nth-child(even) {
+	margin-left: 5%;
+	
+	border-radius: 20px 50px 50px 20px;
+	background-color: rgb(77, 181, 255);
+}
+.timePeriodCard:nth-child(even) .periodTitle{
+	float: left;
+	clear: left;
+}
+
+#background {	
+	position: fixed;
+	left: 0;
+	
+	opacity: 0.5;
+}
+
+#background img{
+	width: 100vw;
+}

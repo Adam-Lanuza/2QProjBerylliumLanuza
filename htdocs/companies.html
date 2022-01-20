@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Gamer's Guidebook</title>
+		
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Lanuza, Adam Joshua D."/>
+		<meta name="keywords" content="HTML, CSS, JavaScript"/>		
+		<meta name="date" content="14/12/2021"/>		
+		<meta name="revised" content="20/01/2022"/>
+		
+		<link rel="stylesheet" type="text/css" href="..\css\mainStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="..\css\companiesStyle.css"/>
+		
+		<link rel="icon" type="image/png" href="..\images\Gamer's Guidebook Logo.png">
+	</head>
+	
+	<body>
+		<header>
+			<div id="headerAudio">
+				<audio controls autoplay>
+					<source src="..\mmfiles\REWIND.mp3" type="audio/mpeg">
+					This file isn't supported by your browser
+				</audio>
+				<span>A bit of background audio</span>
+			</div>
+			
+			<h1>The Gamer's Guidebook</h1>
+			<nav>
+				<ul> <!--anchor tags are declared before list tags so that the entire box and not just the text is a link-->
+					<a href="home.html"><li>Home Page</li></a>
+					<a href="allGames.html"><li>All Games</li></a>
+					<a href="companies.html"><li>Game Companies</li></a>
+					<a href="genres.html"><li>Genres</li></a>
+					<a href="history.html"><li>History of Video Games</li></a>
+				</ul>
+			</nav>
+		</header>
+		
+		<aside id="socialMediaSideBar">
+				<section id="closedBar">
+					<a href="#openedBar"><div id="openButton"><div id="openArrow"></div></div></a>
+				</section>
+				<section id="openedBar">
+					<a href="#closedBar"><div id="closeButton"><div id="closeArrow"></div></div></a>
+					<a href="https://www.reddit.com/r/Games/"><div id="redditLink"></div></a>
+					<a href="https://www.youtube.com/hashtag/gaming"><div id="youtubeLink"></div></a>
+					<a href="https://www.facebook.com/gaming/"><div id="facebookLink"></div></a>
+				</section>
+				<div id="closedBar"></div>
+		</aside>
+		
+		<div id="scrollableContent">
+			<section id="content">	
+				<article class="companyCard">	<!--Sucker Punch Productions-->
+					<section>
+						<a href="https://www.suckerpunch.com/" target="blank">
+							<img src="..\images\Company Photos\Sucker_Punch.png">
+							<h3>Sucker Punch Productions</h3>
+						</a>
+					</section>
+					<p>Founded in 1997, Sucker Punch Productions is an American company most known for their hit game, Ghost of Tsushima. It has been a part of Sony Computer Entertainment since 2011. The games they publish are usually either platformers or action-adventure games.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Ghost of Tsushima</li>
+						<li>Infamous Series</li>
+						<li>The Sly Collection</li>
+						<li class="companyAllGames"><a href="https://www.suckerpunch.com/category/games/" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--Mojang Studios-->
+					<section>
+						<a href="https://www.minecraft.net/en-us" target="blank">
+							<img src="..\images\Company Photos\Mojang.jpg">
+							<h3>Mojang Studios</h3>
+						</a>
+					</section>
+					<p>Mojang Studios was created in 2009 by Markus Perrson. It is currently a part of Microsoft and has been a part of it since 2014. The studio is known for inventing Minecraft, an incredibly popular sandbox game but they have also made a few spin-offs like Minecraft: Story Mode and Minecraft: Dungeons.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Minecraft</li>
+						<li>Minecraft: Dungeons</li>
+						<li>Minecraft: Education Edition</li>
+						<li class="companyAllGames"><a href="https://www.minecraft.net/en-us" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--InnerSloth-->
+					<section>
+						<a href="https://www.innersloth.com/" target="blank">
+							<img src="..\images\Company Photos\Innersloth.jpg">
+							<h3>InnerSloth LCC</h3>
+						</a>
+					</section>
+					<p>InnserSloth is known for their two hit games, The Henry Stickin Collection and Among Us. It was formed in 2015, but the company only became popular during the pandemic when many people used Among Us to interact and play with their friends. Since 2020, the company has earned many awards, and has created a large fanbase.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Among Us</li>
+						<li>The Henry Stickmin Collection</li>
+						<li>Dig2China</li>
+						<li class="companyAllGames"><a href="https://www.innersloth.com/" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--Unknown Worlds Entertainment-->
+					<section>
+						<a href="https://unknownworlds.com/" target="blank">
+							<img src="..\images\Company Photos\Unknown Worlds Entertainment.png">
+							<h3>Unknown Worlds Entertianment</h3>
+						</a>
+					</section>
+					<p>Unknown Worlds Entertainment is an American company that was founded on 2001. The company started with Natural Selection, a first-person shooter. It soon developed into a full company and created its hit game series Subnautica. The company was recently bought by Krafton on the October of 2021.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Subnautica</li>
+						<li>Natural Selection</li>
+						<li>Zen of Sudoku</li>
+						<li class="companyAllGames"><a href="https://unknownworlds.com/games/" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--miHoYo-->
+					<section>
+						<a href="https://genshin.mihoyo.com/en/home" target="blank">
+							<img src="..\images\Company Photos\miHoYo.png">
+							<h3>miHoYo</h3>
+						</a>
+					</section>
+					<p>miHoYo is a Chinese company known for anime style games like Genshin Impact and Honkai Impact 3rd. It was formed in 2012 with Zombiegal Kawaii being its first official release. However, the company did create FlyMe2theMoon before being regarded as an official company. Since then, they have remained as an well known company.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Genshin Impact</li>
+						<li>Honkai Impact 3rd</li>
+						<li>Tears of Themis</li>
+						<li class="companyAllGames"><a href="https://www.hoyolab.com/home" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--Joey Drew Studios-->
+					<section>
+						<a href="https://joeydrewstudios.com/" target="blank">
+							<img src="..\images\Company Photos\Joey Drew Studios.jpg">
+							<h3>Joey Drew Studios</h3>
+						</a>
+					</section>
+					<p>Joey Drew Studios is a subgroup of another company named Kindly Beast and is dedicated to developing the Bendy and the Ink Machine series. The company actually shares its name with the fictional animation studio in the game's story. It was formed on July 2018 and has created many side games that act as extra lore to the main Bendy game.</p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Bendy and the Ink Machine</li>
+						<li>Bendy in Nightmare Run</li>
+						<li>Boris and the Dark Survival</li>
+						<li class="companyAllGames"><a href="https://joeydrewstudios.com/" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--Rayark Inc.-->
+					<section>
+						<a href="https://www.rayark.com/en/about/" target="blank">
+							<img src="..\images\Company Photos\Rayark.png">
+							<h3>Rayark Inc.</h3>
+						</a>
+					</section>
+					<p>Rayark Inc. is a Taiwanese country that was founded on September 2011. The company specializes in creating games for mobile platforms. Usually those games are Rhythm Games but they also have a few role-playing and strategy games. Some of their popular games are the Deemo and Cytus Serieses and Sdorica. </p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>Cytus</li>
+						<li>Deemo</li>
+						<li>Sdorica</li>
+						<li class="companyAllGames"><a href="https://www.rayark.com/en/games/" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+				<article class="companyCard">	<!--Thekla, Inc.-->
+					<section>
+						<a href="https://www.linkedin.com/company/thekla-inc" target="blank">
+							<img src="..\images\Company Photos\Thekla.jfif">
+							<h3>Thekla, Inc.</h3>
+						</a>
+					</section>
+					<p>While not having that many games under its name, Thekla Inc has created some incredible games. They have created two games, the Witness and Braid which are both puzzle solving games. Both of the games were critically acclaimed. The credit to most of the games goes to Jonathan Blow who funded most of the games with his own money. </p>
+					<h6>Known Games and Installments</h6>
+					<ul>
+						<li>The Witness</li>
+						<li>Braid</li>
+						<br>
+						<li class="companyAllGames"><a href="https://www.linkedin.com/company/thekla-inc" target="blank">All Company Games</a></li>
+					</ul>
+				</article>
+			</section>
+			
+			<footer>
+				<ul id="links" class="footerLists">
+					<li class="footerTitle" >Site Links</li>
+					<br/>
+					<li><a href="home.html" class="footerText">Home Page</a></li>
+					<li><a href="allGames.html" class="footerText">All Games</a></li>
+					<li><a href="companies.html" class="footerText">Game Companies</a></li>
+					<li><a href="genres.html" class="footerText">Genres</a></li>
+					<li><a href="history.html" class="footerText">History of Video Games</a></li>
+					<li><a href="references.html" class="footerText">References, Sources, and Credits</a></li>
+				</ul>
+				<ul id="referenceNames" class="footerLists">
+					<li class="footerTitle" >Games</li>
+					<br/>
+					<li class="footerText">Ghost of Tsushima:</li>
+					<li class="footerText">Minecraft:</li>
+					<li class="footerText">Among Us:</li>
+					<li class="footerText">Subnautica Below Zero:</li>
+					<li class="footerText">Genshin Impact:</li>
+					<li class="footerText">Bendy and the Ink Machine:</li>
+					<li class="footerText">Cytus 2:</li>
+					<li class="footerText">The Witness:</li>
+				</ul>
+				<ul id="referenceLinks" class="footerLists">
+					<li class="footerText" style="margin-top: 45px;"><a href="https://www.playstation.com/en-ph/games/ghost-of-tsushima/" class="footerText" target="blank">https://www.playstation.com/en-ph/games/ghost-of-tsushima/</a></li>
+					<li class="footerText"><a href="https://www.minecraft.net/en-us"" class="footerText" target="blank">https://www.minecraft.net/en-us</a></li>
+					<li class="footerText"><a href="https://www.innersloth.com/games/among-us/" class="footerText" target="blank">https://www.innersloth.com/games/among-us/</a></li>
+					<li class="footerText"><a href="https://www.subnautica.com/" class="footerText" target="blank">https://www.subnautica.com/</a></li>
+					<li class="footerText"><a href="https://genshin.mihoyo.com/en/" class="footerText" target="blank">https://genshin.mihoyo.com/en/</a></li>
+					<li class="footerText"><a href="https://joeydrewstudios.com/batim" class="footerText" target="blank">https://joeydrewstudios.com/batim</a></li>
+					<li class="footerText"><a href="https://www.rayark.com/g/cytus2/" class="footerText" target="blank">https://www.rayark.com/g/cytus2/</a></li>
+					<li class="footerText"><a href="https://www.linkedin.com/company/thekla-inc" class="footerText" target="blank">https://www.linkedin.com/company/thekla-inc</a></li>
+				</ul>
+
+				<hr>
+				<h3 class="copyright">The Gamer's Guidebook</h4>
+				<p class="copyright">© 2016 - 2021 The Gamer's Guidebook - All Rights Reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,11 @@
+#credits {
+	position: relative;
+	left: 20px;
+}
+#credits section h1 {
+	font-size: 25px;
+}
+#credits section p {
+	position: relative;
+	left: 20px;
+}

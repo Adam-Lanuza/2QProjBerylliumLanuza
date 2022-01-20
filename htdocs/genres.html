@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Gamer's Guidebook</title>
+		
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Lanuza, Adam Joshua D."/>
+		<meta name="keywords" content="HTML, CSS, JavaScript"/>		
+		<meta name="date" content="14/12/2021"/>		
+		<meta name="revised" content="20/01/2022"/>
+		
+		<link rel="stylesheet" type="text/css" href="..\css\mainStyle.css"/>
+		<link rel="stylesheet" type="text/css" href="..\css\genresStyle.css"/>
+		
+		<link rel="icon" type="image/png" href="..\images\Gamer's Guidebook Logo.png">
+	</head>
+	
+	<body>
+		<header>
+			<div id="headerAudio">
+				<audio controls autoplay>
+					<source src="..\mmfiles\REWIND.mp3" type="audio/mpeg">
+					This file isn't supported by your browser
+				</audio>
+				<span>A bit of background audio</span>
+			</div>
+			
+			<h1>The Gamer's Guidebook</h1>
+			<nav>
+				<ul> <!--anchor tags are declared before list tags so that the entire box and not just the text is a link-->
+					<a href="home.html"><li>Home Page</li></a>
+					<a href="allGames.html"><li>All Games</li></a>
+					<a href="companies.html"><li>Game Companies</li></a>
+					<a href="genres.html"><li>Genres</li></a>
+					<a href="history.html"><li>History of Video Games</li></a>
+				</ul>
+			</nav>
+		</header>
+		
+		<aside id="socialMediaSideBar">
+				<section id="closedBar">
+					<a href="#openedBar"><div id="openButton"><div id="openArrow"></div></div></a>
+				</section>
+				<section id="openedBar">
+					<a href="#closedBar"><div id="closeButton"><div id="closeArrow"></div></div></a>
+					<a href="https://www.reddit.com/r/Games/"><div id="redditLink"></div></a>
+					<a href="https://www.youtube.com/hashtag/gaming"><div id="youtubeLink"></div></a>
+					<a href="https://www.facebook.com/gaming/"><div id="facebookLink"></div></a>
+				</section>
+				<div id="closedBar"></div>
+		</aside>
+		
+		<div id="scrollableContent">
+			<section id="content">
+				<article class="genreCard"> <!--Action-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Action.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Action</h2>
+						<hr>
+						<p>If you are looking for some thrill then this genre is for you. Action games are, wait for it, full of action. The thrill of victory and the challenge that comes from attaing it is what action games are all about. Action games are full of challenges that test the player's skills like hand-eye coordination, reaction time, and resource management. These games are normally marked with a conflict that you have to solve. That conflict could be anything from a simple game of sports with another player to the world domination plans of an in game villain. So grab whatever you need and let the battle begin!</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Fortnite</li>
+							<li>Red Dead Redemption II</li>
+							<li>Mortal Kombat</li>
+							<li>Rocket League</li>
+							<li>Overflow Prevent(Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Adventure-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Adventure.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Adventure</h2>
+						<hr>
+						<p>Adventure games, the combination between video games and movies. In adventure games, the player takes control of the protagonist of the story and follows the protagonist through his or her journey through the game. Adventure games usually tell a story of the hardships the protagonist goes through and the problems he or she faces. These problems could be anything like finding a lost sibling, ending an invasion, trying to survive, and more. Adventure games tend to be full of NPCs (Non-playable characters) that act as characters in the story and the protagonist's allies or enemies and also side stories that act as support to the main campaign.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Ghost of Tsushima</li>
+							<li>Subnautica: Below Zero</li>
+							<li>The Legend of Zelda: Breath of the Wild</li>
+							<li>Genshin Impact</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Role-Playing-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Role-play.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Role-play</h2>
+						<hr>
+						<p>For those who want to visit an alternate reality, role-playing games are their best friend. Role-Playing games still follow a story but instead of the player watching the protagonist's journey, the player is the protagonist. Usually these games have a very high level of customization and focus more on the plot of the game over the gameplay elements. Players control their character and can make decisions for them. These decisions can have huge impacts on the game. For example, if you decide to kill an NPC (Non-playable character), then that might have an effect on how people see you and will not try to help you in the final battle. Role-playing games gives players an alternate world where they can be heroes of the story.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Cyberpunk 2077</li>
+							<li>World of Warcraft</li>
+							<li>Borderlands 2</li>
+							<li>Nier Automata</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Puzzle-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Puzzle.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Puzzle</h2>
+						<hr>
+						<p>Puzzle games are a perfect way to challenge your ability to think and solve problems. Because after all, what makes you think more then a good puzzle. Puzzle games tend to be slow-paced which can be both a good and bad thing. Puzzle games can use any kind of puzzle like logic problems, mazes, contraptions, and audio puzzles but most puzzle games have one core gameplay mechanic and compicates itself by adding more obstacles. For example Portal's main gimmick is the use of portals to move around the map. However, by creating gaps and random surfaces, the game gets much more complicated. But at the heart of it all, puzzle games are made to confuse and challenge the player's thinking ability.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>The Witness</li>
+							<li>Portal</li>
+							<li>Braid</li>
+							<li>Baba is You</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Simulation-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Simulation.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Simulation</h2>
+						<hr>
+						<p>There are many things in life that we will never be able to experience, so why not simulate it and turn it into a game? Simulation games follow this idea. They tend to replicate an experience that most people will not be able to try easilly and with no effort like flying a jet, being in a race, developing a city, and being a goat(I'm serious). However, simualtion games aren't perfect representations. Since it's a game, parts of it are going to be unrelatistic like building the Eiffel Tower in a few hours, recovering from a gunshot with only a band-aid, or flying using the power of goats (Again, I'm serious). If you've ever been curois with what the life of others is like, then simulation games are a good way to take a quick glimpse.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Goat Simulator</li>
+							<li>The Sims 4</li>
+							<li>Assetto Corsa</li>
+							<li>Planet Zoo</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Rhythm-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Rhythm.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Rhythm</h2>
+						<hr>
+						<p>Rhythm gamers have a reputation for being perfectionists when they play rhythm games. You generally won't understand why until you play rhythm games yourself. Rhythm games are a genre of video games where the player has to perform certain actions in tune with the music playing in the background. The actions have some correlation to the notes being played in the song. Short notes need a short but quick actions while long notes need a long and slow actions. The aim of the game is to properly play as many notes as possible. Once you start getting those full combos, then you'll realize why rhythm gamers are the way they are.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Cytus 2</li>
+							<li>Just Dance</li>
+							<li>Guitar Hero</li>
+							<li>Arcea</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+				<article class="genreCard"> <!--Sandbox-->
+					<section class="backgroundBox"> <!--In order to make the background images, I needed to place an image and then place a semi-transparent layer over it-->
+						<img src="../images/Genres Backgrounds/Sandbox.jpg" class="background">
+						<span class="blur"></span>
+					</section>
+					
+					<section class="contentBox">
+						<h2>Sandbox</h2>
+						<hr>
+						<p>We will give you a world, some items, and a few laws of physics. Do what you want with them. This is the core idea of sandbox games. Unlike most games, there is no real goal for sandbox games other than go around, have fun, and cause chaos. There are many kinds of sandbox games. Some games allow you to build anything. Other games allow you to roam an open-world and cause chaos. Due to how open and rule free most sandbox games are, finding two games with exactly similar worlds is almost impossible. Walk, drive, or fly all around the game and do whatever you want within its boundaries. After all the only thing holding you back is yourself and the few rules of the game.</p>
+						<h4>Some popular games are...</h4>
+						<ul class="gamesList">
+							<li>Minecraft</li>
+							<li>Grand Theft Auto V</li>
+							<li>Roblox</li>
+							<li>Garry's Mod</li>
+							<li>Overflow Prevent (Don't Edit)</li>
+						</ul>
+					</section>
+				</article>
+			</section>
+			
+			<footer>
+				<ul id="links" class="footerLists">
+					<li class="footerTitle" >Site Links</li>
+					<br/>
+					<li><a href="home.html" class="footerText">Home Page</a></li>
+					<li><a href="allGames.html" class="footerText">All Games</a></li>
+					<li><a href="companies.html" class="footerText">Game Companies</a></li>
+					<li><a href="genres.html" class="footerText">Genres</a></li>
+					<li><a href="history.html" class="footerText">History of Video Games</a></li>
+					<li><a href="references.html" class="footerText">References, Sources, and Credits</a></li>
+				</ul>
+				<ul id="referenceNames" class="footerLists">
+					<li class="footerTitle" >Games</li>
+					<br/>
+					<li class="footerText">Ghost of Tsushima:</li>
+					<li class="footerText">Minecraft:</li>
+					<li class="footerText">Among Us:</li>
+					<li class="footerText">Subnautica Below Zero:</li>
+					<li class="footerText">Genshin Impact:</li>
+					<li class="footerText">Bendy and the Ink Machine:</li>
+					<li class="footerText">Cytus 2:</li>
+					<li class="footerText">The Witness:</li>
+				</ul>
+				<ul id="referenceLinks" class="footerLists">
+					<li class="footerText" style="margin-top: 45px;"><a href="https://www.playstation.com/en-ph/games/ghost-of-tsushima/" class="footerText" target="blank">https://www.playstation.com/en-ph/games/ghost-of-tsushima/</a></li>
+					<li class="footerText"><a href="https://www.minecraft.net/en-us"" class="footerText" target="blank">https://www.minecraft.net/en-us</a></li>
+					<li class="footerText"><a href="https://www.innersloth.com/games/among-us/" class="footerText" target="blank">https://www.innersloth.com/games/among-us/</a></li>
+					<li class="footerText"><a href="https://www.subnautica.com/" class="footerText" target="blank">https://www.subnautica.com/</a></li>
+					<li class="footerText"><a href="https://genshin.mihoyo.com/en/" class="footerText" target="blank">https://genshin.mihoyo.com/en/</a></li>
+					<li class="footerText"><a href="https://joeydrewstudios.com/batim" class="footerText" target="blank">https://joeydrewstudios.com/batim</a></li>
+					<li class="footerText"><a href="https://www.rayark.com/g/cytus2/" class="footerText" target="blank">https://www.rayark.com/g/cytus2/</a></li>
+					<li class="footerText"><a href="https://www.linkedin.com/company/thekla-inc" class="footerText" target="blank">https://www.linkedin.com/company/thekla-inc</a></li>
+				</ul>
+
+				<hr>
+				<h3 class="copyright">The Gamer's Guidebook</h4>
+				<p class="copyright">© 2016 - 2021 The Gamer's Guidebook - All Rights Reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
